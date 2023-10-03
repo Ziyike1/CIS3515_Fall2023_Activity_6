@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
             // TODO Step2: Implement lambda body to launch new activity and pass value
             adapter = TextSizeAdapter(textSizes){
-
+                setContentView(R.layout.activity_display)
             }
             layoutManager = LinearLayoutManager(this@MainActivity)
         }
